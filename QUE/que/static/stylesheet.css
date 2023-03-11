@@ -1,0 +1,55 @@
+
+
+.container{
+  position:relative;
+}
+
+/* Style for the box below */
+/* .bottom-box {
+  height: 200px;
+  width: 100%;
+  background-color: #fff;
+  border-bottom: 1px solid #ccc;
+} */
+
+.first {
+    filter: blur(1px);
+    box-shadow: 0  0 10px 2px rgba(0, 0, 0, 0.5);
+  }
+
+h2 {
+    background-color: transparent; /* Remove bg-color property */
+    color: blue;
+  }
+
+.navbar {
+    background-color: #ffffff;
+    border-style: inherit;
+    overflow: hidden;
+    position: absolute;
+    top: 4.5px;
+    left: 9%;
+    transform: translateX(-50%);
+    z-index: 1;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+  /* Style the links inside the navbar */
+.navbar a {
+
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.navbar:hover{
+  border: 1px solid rgba(0, 0, 0, 0.5)
+
+}
+  /* Change color on hover */
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+    cursor:pointer;
+}
