@@ -28,15 +28,14 @@
 Clone repo using <>Code to SSH or HTTPS as your like.
 
 ```bash
-# Clone this repository
-$ git clone https://..
+# Clone this repository , It's ssh below but you can use https:// too....
+$ git clone git@github.com:subash1237/Queue-Management-System-.git
 
 # Go into the repository
 $ cd /path/to/repo
 
 # Install dependencies
 $ pipenv install
-
 
 # Run the app
 $ python manage.py runserver
